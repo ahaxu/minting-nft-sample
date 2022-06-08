@@ -9,7 +9,7 @@ npm install
 
 ### Change your blockfrostAPIKey
 
-In [./src/cardano.js](./src/cardano.js#L11)
+In [./src/cardano.js](./src/cardano.js#L9)
 
 ```
 const blockfrostAPIKey = 'put_your_key_here';

@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import {
   Lucid,
   Blockfrost,
@@ -43,8 +41,10 @@ export const mintNFT = async (tokenName, plutusScript, metaData) => {
     }
 
     const assets = {
-            [token.policyId + toHex(token.assetName)] : BigInt(1)
-        }
+        // ignore BigInt warning
+        // eslint-disable-next-line
+        [token.policyId + toHex(token.assetName)] : BigInt(1)
+    }
 
     const tx = await lucid
         .newTx()

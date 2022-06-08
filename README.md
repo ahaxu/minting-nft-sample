@@ -1,5 +1,7 @@
 # AXU minting NFT sample
 
+![Minting NFT via nami wallet](./minting-nft-via-wallet.png "Minting NFT via nami wallet")
+
 ## Project setup
 ```
 npm install
@@ -18,3 +20,8 @@ const blockfrostAPIKey = 'put_your_key_here';
 npm run serve
 ```
 
+### Relevant repo
+
+You might need this repo for gernating plutus script
+
+https://github.com/ahaxu/axu-nft
